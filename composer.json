@@ -1,0 +1,20 @@
+{
+  "name": "romapost/docker-xdebug",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "TestUnit\\": "tests/unit/"
+    }
+  },
+  "authors": [
+    {
+      "name": "romapost",
+      "email": "webmaster@codemarkt.at"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "8.5.9"
+  }
+}
